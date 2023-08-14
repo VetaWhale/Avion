@@ -28,9 +28,7 @@
   line-height: 21px;
 }
 .menu__mobile {
-  margin: 20px 24px;
-  display: flex;
-  justify-content: space-between;
+  display: none;
 }
 .menu__mobile_logo {
 }
@@ -38,14 +36,14 @@
   display: flex;
   gap: 20px;
 }
-.js-burger-btn {
-}
-.burger-btn {
-}
-
 
 @media only screen and (max-width: 1199px) {
   .menu {
     display: none;
   }
+  .menu__mobile {
+  margin: 20px 24px;
+  display: flex;
+  justify-content: space-between;
+}
 }

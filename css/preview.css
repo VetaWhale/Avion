@@ -3,22 +3,22 @@
   background-color: var(--dark-color);
   /* max-height: 584px; */
   color: #fff;
+}
+.preview__content {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
   background-image: url(../resources/Chair.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
   position: relative;
 }
-.preview__content {
-    display: flex;
-    flex-direction: column;
-  padding: 60px;
-}
 .preview__content_head {
 }
 .preview__content_button {
+    width: 180px;
   margin-top: 41px;
-  padding: 16px 32px;
   border: 1px solid var(--light-violet);
   background-color: var(--light-violet);
 }
@@ -35,16 +35,17 @@
 }
 
 @media only screen and (max-width: 1199px) {
-  .preview {
+  .preview__content {
     background-image: none;
   }
-.preview__content_text {
+  .preview__content_text {
     order: 2;
-}
-.preview__content_head {
+  }
+  .preview__content_head {
     order: 1;
-}
-.preview__content_button {
+  }
+  .preview__content_button {
+    width: 100%;
     order: 3;
-}
+  }
 }
