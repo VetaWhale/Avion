@@ -1,4 +1,5 @@
 .connection {
+    display: flex;
   background-image: url(../resources/Image.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -7,7 +8,8 @@
   height: 603px;
 }
 .connection__content {
-  width: calc(50% - 50px);
+  /* width: calc(50% - 50px); */
+  position: absolute;
 }
 .connection__content_title {
   padding-top: 72px;
@@ -28,4 +30,10 @@
   color: #fff;
 }
 .connection__picture {
+}
+
+@media only screen and (max-width: 1199px) {
+.connection {
+    flex-direction: column;
+}
 }

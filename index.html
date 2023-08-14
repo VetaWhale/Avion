@@ -47,6 +47,45 @@
           </ul>
         </div>
       </div>
+      <div class="menu__mobile">
+        <div class="menu__mobile_logo">
+          <img src="resources/Avion.svg" alt="">
+        </div>
+        <div class="menu__mobile_nav">
+          <button href="">
+            <img src="resources/search.svg" alt="search" />
+          </button>
+          <button class="js-burger-btn burger-btn"><img src="resources/burger.svg" alt=""></button>
+        </div>
+        
+      </div>
+      
+      <div class="js-burger burger">
+        <div class="burger__content">
+          <div class="burger-menu__logo">
+            <img src="resources/Avion.svg" alt="" />
+          </div>
+          <nav class="burger-menu__nav">
+            <ul>
+              <li><a href="">Plant pots</a></li>
+              <li><a href="">Ceramics</a></li>
+              <li><a href="">Tables</a></li>
+              <li><a href="">Chair</a></li>
+              <li><a href="">Crockery</a></li>
+              <li><a href="">Tableware</a></li>
+              <li><a href="">Cutlery</a></li>
+            </ul>
+          </nav>
+          <div class="js-burger__content burger-menu__person">
+            <button>
+              <img src="resources/shopping-cart.svg" alt="basket" />
+            </button>
+            <button>
+              <img src="resources/user-avatar.svg" alt="user-avatar" />
+            </button>
+          </div>
+        </div>
+      </div>
     </header>
     <main>
       <div class="container">
@@ -127,38 +166,46 @@
           <h2 class="text-2">New ceramics</h2>
           <ul class="ceramics__cards">
             <li class="ceramics__card">
-              <img
-                class="ceramics__card_picture"
-                src="resources/ceramic-1.png"
-                alt=""
-              />
+              <picture class="ceramics__card_picture">
+                <source
+                  media="(max-width: 717px)"
+                  srcset="resources/ceramic-1-mobile.png"
+                />
+                <img src="resources/ceramic-1.png" alt="ceramic" />
+              </picture>
               <p class="ceramics__card_title">The Dandy chair</p>
               <p class="ceramics__card_price">£250</p>
             </li>
             <li class="ceramics__card">
-              <img
-                class="ceramics__card_picture"
-                src="resources/ceramic-2.png"
-                alt=""
-              />
+              <picture class="ceramics__card_picture">
+                <source
+                  media="(max-width: 717px)"
+                  srcset="resources/ceramic-2-mobile.png"
+                />
+                <img src="resources/ceramic-2.png" alt="ceramic" />
+              </picture>
               <p class="ceramics__card_title">Rustic Vase Set</p>
               <p class="ceramics__card_price">£155</p>
             </li>
             <li class="ceramics__card">
-              <img
-                class="ceramics__card_picture"
-                src="resources/ceramic-3.png"
-                alt=""
-              />
+              <picture class="ceramics__card_picture">
+                <source
+                  media="(max-width: 717px)"
+                  srcset="resources/ceramic-3-mobile.png"
+                />
+                <img src="resources/ceramic-3.png" alt="ceramic" />
+              </picture>
               <p class="ceramics__card_title">The Silky Vase</p>
               <p class="ceramics__card_price">£125</p>
             </li>
             <li class="ceramics__card">
-              <img
-                class="ceramics__card_picture"
-                src="resources/ceramic-4.png"
-                alt=""
-              />
+              <picture class="ceramics__card_picture">
+                <source
+                  media="(max-width: 717px)"
+                  srcset="resources/ceramic-4-mobile.png"
+                />
+                <img src="resources/ceramic-4.png" alt="ceramic" />
+              </picture>
               <p class="ceramics__card_title">The Lucy Lamp</p>
               <p class="ceramics__card_price">£399</p>
             </li>
@@ -205,81 +252,94 @@
       </div>
       <div class="container-grey">
         <div class="container">
-            <section class="join-club">
-                <div class="join-club__wrapper">
-                <h1 class="join-club__title">Join the club and get the benefits</h1>
-                <p class="join-club__text">
-                    Sign up for our newsletter and receive exclusive offers on new <br>
-                    ranges, sales, pop up stores and more
-                </p>
-                <div class="join-club__form">
-                    <input
-                        class="join-club__form_input"
-                        type="email"
-                        name="email"
-                        id=""
-                        placeholder="your@email.com"
-                    />
-                    <button class="button">Sign up</button>
-                </div>
-                </div>
-            </section>
+          <section class="join-club">
+            <div class="join-club__wrapper">
+              <h1 class="join-club__title">
+                Join the club and get the benefits
+              </h1>
+              <p class="join-club__text">
+                Sign up for our newsletter and receive exclusive offers on new
+                <br />
+                ranges, sales, pop up stores and more
+              </p>
+              <div class="join-club__form">
+                <input
+                  class="join-club__form_input"
+                  type="email"
+                  name="email"
+                  id=""
+                  placeholder="your@email.com"
+                />
+                <button class="button">Sign up</button>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
       <section class="connection">
         <div class="container">
-            <div class="connection__content">
-                <h2 class="connection__content_title text-3">From a studio in London to a global brand with <br> over 400 outlets</h2>
-                <p class="connection__content_text">When we started Avion, the idea was simple. Make high quality furniture <br> affordable and available for the mass market. <br><br>
-                    Handmade, and lovingly crafted furniture and homeware is what we live, <br> breathe and design so our Chelsea boutique become the <br> hotbed for the London interior design community.</p>
-                <button class="button connection__content_btn">Get in touch</button>
-            </div>
+          <div class="connection__content">
+            <h2 class="connection__content_title text-3">
+              From a studio in London to a global brand with <br />
+              over 400 outlets
+            </h2>
+            <p class="connection__content_text">
+              When we started Avion, the idea was simple. Make high quality
+              furniture <br />
+              affordable and available for the mass market. <br /><br />
+              Handmade, and lovingly crafted furniture and homeware is what we
+              live, <br />
+              breathe and design so our Chelsea boutique become the <br />
+              hotbed for the London interior design community.
+            </p>
+            <button class="button connection__content_btn">Get in touch</button>
+          </div>
         </div>
-    </section>
+      </section>
     </main>
     <footer>
-        <div class="container">
-            <div class="footer__nav">
-            <div class="footer__menu">
-                <ul>
-                    <li class="footer__menu_title"><a href="">Menu</a></li>
-                    <li><a href="">New arrivals</a></li>
-                    <li><a href="">Best sellers</a></li>
-                    <li><a href="">Recently viewed</a></li>
-                    <li><a href="">Popular this week</a></li>
-                    <li><a href="">All products</a></li>
-                </ul>
-                <ul>
-                    <li class="footer__menu_title"><a href="">Categories</a></li>
-                    <li><a href="">Crockery</a></li>
-                    <li><a href="">Furniture</a></li>
-                    <li><a href="">Homeware</a></li>
-                    <li><a href="">Plant pots</a></li>
-                    <li><a href="">Chairs</a></li>
-                    <li><a href="">Crockery</a></li>
-                </ul>
-                <ul>
-                    <li class="footer__menu_title"><a href="">Our company</a></li>
-                    <li><a href="">About us</a></li>
-                    <li><a href="">Vacancies</a></li>
-                    <li><a href="">Contact us</a></li>
-                    <li><a href="">Privacy</a></li>
-                    <li><a href="">Returns policy</a></li>
-                </ul>
+      <div class="container">
+        <div class="footer__nav">
+          <div class="footer__menu">
+            <ul>
+              <li class="footer__menu_title"><a href="">Menu</a></li>
+              <li><a href="">New arrivals</a></li>
+              <li><a href="">Best sellers</a></li>
+              <li><a href="">Recently viewed</a></li>
+              <li><a href="">Popular this week</a></li>
+              <li><a href="">All products</a></li>
+            </ul>
+            <ul>
+              <li class="footer__menu_title"><a href="">Categories</a></li>
+              <li><a href="">Crockery</a></li>
+              <li><a href="">Furniture</a></li>
+              <li><a href="">Homeware</a></li>
+              <li><a href="">Plant pots</a></li>
+              <li><a href="">Chairs</a></li>
+              <li><a href="">Crockery</a></li>
+            </ul>
+            <ul>
+              <li class="footer__menu_title"><a href="">Our company</a></li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Vacancies</a></li>
+              <li><a href="">Contact us</a></li>
+              <li><a href="">Privacy</a></li>
+              <li><a href="">Returns policy</a></li>
+            </ul>
+          </div>
+          <div class="footer__join">
+            <p class="footer__menu_title">Join our mailing list</p>
+            <div class="footer__join-club__form">
+              <input
+                class="footer__join-club__form_input"
+                type="email"
+                name="email"
+                id=""
+                placeholder="your@email.com"
+              />
+              <button class="button">Sign up</button>
             </div>
-            <div class="footer__join">
-                <p class="footer__menu_title">Join our mailing list</p>
-                <div class="footer__join-club__form">
-                    <input
-                        class="footer__join-club__form_input"
-                        type="email"
-                        name="email"
-                        id=""
-                        placeholder="your@email.com"
-                    />
-                    <button class="button">Sign up</button>
-                </div>
-                <!-- <div class="footer__join_form">
+            <!-- <div class="footer__join_form">
                     <input
                         class="footer__join_form_input"
                         type="email"
@@ -289,25 +349,38 @@
                     />
                     <button class="button">Sign up</button>
                 </div> -->
-            </div>
-         </div>
-         
-         <div class="line"></div>
-         <div class="footer__social-media">
-            <div class="copyright">Copyright 2022 Avion LTD</div>
-            <div class="social-media__cards">
-                <ul>
-                    <li><a href=""><img src="resources/icon-linkedin.svg" alt=""></a></li>
-                    <li><a href=""><img src="resources/icon-facebook.svg" alt=""></a></li>
-                    <li><a href=""><img src="resources/icon-instagram.svg" alt=""></a></li>
-                    <li><a href=""><img src="resources/icon-skype.svg" alt=""></a></li>
-                    <li><a href=""><img src="resources/icon-twitter.svg" alt=""></a></li>
-                    <li><a href=""><img src="resources/icon-pinterest.svg" alt=""></a></li>
-                </ul>
-            </div>
-         </div>
+          </div>
         </div>
-         
+
+        <div class="line"></div>
+        <div class="footer__social-media">
+          <div class="copyright">Copyright 2022 Avion LTD</div>
+          <div class="social-media__cards">
+            <ul>
+              <li>
+                <a href=""><img src="resources/icon-linkedin.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="resources/icon-facebook.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="resources/icon-instagram.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="resources/icon-skype.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="resources/icon-twitter.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="resources/icon-pinterest.svg" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>

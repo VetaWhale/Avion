@@ -8,6 +8,7 @@
 @import url('../css/join-club.css');
 @import url('../css/connection.css');
 @import url('../css/footer.css');
+@import url('../css/burger.css');
 /* Общие настройки */
 html {
     scroll-behavior: smooth;
@@ -36,7 +37,7 @@ body {
 @media only screen and (max-width: 1199px) {
 .container {
     width: 100%;
-    margin-left: 24px;
-    margin-right: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 }

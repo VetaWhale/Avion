@@ -1,7 +1,7 @@
 .preview {
   margin: 60px 0;
   background-color: var(--dark-color);
-  max-height: 584px;
+  /* max-height: 584px; */
   color: #fff;
   background-image: url(../resources/Chair.png);
   background-size: contain;
@@ -10,6 +10,8 @@
   position: relative;
 }
 .preview__content {
+    display: flex;
+    flex-direction: column;
   padding: 60px;
 }
 .preview__content_head {
@@ -30,4 +32,19 @@
   line-height: 27px;
 }
 .preview__picture {
+}
+
+@media only screen and (max-width: 1199px) {
+  .preview {
+    background-image: none;
+  }
+.preview__content_text {
+    order: 2;
+}
+.preview__content_head {
+    order: 1;
+}
+.preview__content_button {
+    order: 3;
+}
 }
