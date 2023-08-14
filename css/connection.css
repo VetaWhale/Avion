@@ -24,8 +24,7 @@
   color: #fff;
 }
 .img-cover {
-  width: 100%;
-  object-fit: cover;
+  max-width: 720px;
   
 }
 
@@ -45,5 +44,9 @@
   .connection__content_btn {
     margin-top: 64px;
     margin-bottom: 38px;
+  }
+  .img-cover {
+    width: 100%;
+    object-fit: cover;
   }
 }
