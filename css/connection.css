@@ -1,6 +1,6 @@
 .connection {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .connection__content {
   margin-left: 40px;
@@ -23,26 +23,27 @@
   background-color: var(--dark-color);
   color: #fff;
 }
-.img-cover{
-    width: 100%;
-    object-fit: cover;
+.img-cover {
+  width: 100%;
+  object-fit: cover;
+  
 }
 
 @media only screen and (max-width: 1199px) {
-.connection {
+  .connection {
     flex-direction: column;
-}
-.connection__content {
+  }
+  .connection__content {
     margin: auto 24px;
-}
-.connection__content_title {
+  }
+  .connection__content_title {
     padding-top: 48px;
-}
-.connection__content_text {
+  }
+  .connection__content_text {
     margin-top: 12px;
-}
-.connection__content_btn {
+  }
+  .connection__content_btn {
     margin-top: 64px;
     margin-bottom: 38px;
-}
+  }
 }
