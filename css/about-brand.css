@@ -33,6 +33,7 @@
   }
   .about-brand__cards {
     flex-direction: column;
+    gap: 36px;
   }
   .about-brand__card_title {
     font-size: 16px;
