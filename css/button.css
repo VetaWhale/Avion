@@ -10,7 +10,10 @@ button {
     padding: 16px 32px;
 }
 @media only screen and (max-width: 1199px) {
-    /* .button {
+    .button {
+        padding: 12px 20px;
+    }
+    .big_button {
         width: 100%;
-    } */
+    }
 }
