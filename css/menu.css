@@ -1,0 +1,29 @@
+.menu {
+  margin: 26px;
+}
+.menu__options {
+  display: flex;
+  justify-content: space-between;
+}
+.option_search {
+}
+.logo {
+}
+.option_user {
+  display: flex;
+  gap: 16px;
+}
+.line {
+  margin-top: 20px;
+  border: 1px solid var(--violet-color);
+  opacity: 0.5;
+}
+.menu__nav ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 44px;
+  font-size: 16px;
+  line-height: 21px;
+}

@@ -1,0 +1,32 @@
+.ceramics {
+  margin-top: 80px;
+  margin-bottom: 52px;
+}
+.ceramics__cards {
+  margin-top: 33px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.ceramics__card {
+}
+.ceramics__card_picture {
+}
+.ceramics__card_title {
+  margin-top: 24px;
+  font-size: 20px;
+  line-height: 28px;
+}
+.ceramics__card_price {
+  margin-top: 8px;
+  font-size: 18px;
+  line-height: 27px;
+}
+.ceramics__btn {
+  margin-top: 35px;
+  text-align: center;
+}
+.ceramics__btn .button {
+  border: 1px solid var(--light-grey);
+  background-color: var(--light-grey);
+}

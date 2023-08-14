@@ -1,0 +1,26 @@
+.connection {
+    background-image: url(../resources/Image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    height: 603px;
+}
+.connection__content {
+    width: calc(50% - 50px);
+}
+.connection__content_title {
+    padding-top: 72px;
+}
+.connection__content_text {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 22px;
+}
+.connection__content_btn {
+    margin-top: 196px;
+    border: 1px solid var(--light-grey);
+    background-color: var(--light-grey);
+}
+.connection__picture {
+}

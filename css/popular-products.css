@@ -1,0 +1,30 @@
+.popular-products {
+  margin-top: 64px;
+  margin-bottom: 48px;
+}
+.popular-products__cards {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.popular-products__card_picture {
+}
+.popular-products__card_title {
+  margin-top: 24px;
+  font-size: 20px;
+  line-height: 28px;
+}
+.popular-products__card_price {
+  margin-top: 8px;
+  font-size: 18px;
+  line-height: 27px;
+}
+.popular-products__btn {
+  margin-top: 35px;
+  text-align: center;
+}
+.popular-products__btn .button {
+  border: 1px solid var(--light-grey);
+  background-color: var(--light-grey);
+}

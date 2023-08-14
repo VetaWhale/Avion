@@ -1,0 +1,27 @@
+.about-brand {
+  margin-top: 60px;
+  margin-bottom: 86px;
+}
+.about-brand__head {
+  text-align: center;
+}
+.about-brand__cards {
+  margin-top: 51px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.about-brand__card {
+}
+.about-brand__card_picture {
+}
+.about-brand__card_title {
+  margin-top: 16px;
+  font-size: 20px;
+  line-height: 28px;
+}
+.about-brand__card_text {
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 24px;
+}

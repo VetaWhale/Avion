@@ -1,0 +1,19 @@
+body {
+  font-family: "Noto Sans Display", sans-serif;
+  font-weight: 400;
+  color: var(--dark-color);
+  letter-spacing: -0.05em;
+}
+
+.text-1 {
+  font-size: 32px;
+  line-height: 45px;
+}
+.text-2 {
+  font-size: 32px;
+  line-height: 40px;
+}
+.text-3 {
+  font-size: 24px;
+  line-height: 33px;
+}
