@@ -27,7 +27,19 @@
 }
 
 @media only screen and (max-width: 1199px) {
-.about-brand__cards {
-  flex-direction: column;
-}
+  .about-brand {
+    margin-top: 48px;
+    margin-bottom: 45px;
+  }
+  .about-brand__cards {
+    flex-direction: column;
+  }
+  .about-brand__card_title {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .about-brand__card_text {
+    font-size: 14px;
+    line-height: 21px;
+  }
 }

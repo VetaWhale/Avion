@@ -17,3 +17,16 @@ body {
   font-size: 24px;
   line-height: 33px;
 }
+
+@media only screen and (max-width: 1199px) {
+  .text-1 {
+  }
+  .text-2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .text-3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}

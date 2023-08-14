@@ -15,9 +15,10 @@
   position: relative;
 }
 .preview__content_head {
+  max-width: 35%;
 }
 .preview__content_button {
-    width: 180px;
+  width: 180px;
   margin-top: 41px;
   border: 1px solid var(--light-violet);
   background-color: var(--light-violet);
@@ -27,6 +28,7 @@
   color: var(--dark-color);
 }
 .preview__content_text {
+  max-width: 50%;
   margin-top: 196px;
   font-size: 18px;
   line-height: 27px;
@@ -35,13 +37,20 @@
 }
 
 @media only screen and (max-width: 1199px) {
+  .preview {
+    margin: 0;
+  }
   .preview__content {
     background-image: none;
+    padding: 40px 0 24px;
   }
   .preview__content_text {
+    margin-top: 80px;
+    max-width: 90%;
     order: 2;
   }
   .preview__content_head {
+    max-width: 90%;
     order: 1;
   }
   .preview__content_button {

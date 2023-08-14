@@ -27,6 +27,7 @@ footer {
 .footer__join {
 }
 .footer__join-club__form {
+    width: calc(50%);
     margin-top: 72px;
     display: flex;
     justify-content: center;
@@ -39,7 +40,7 @@ footer {
 }
 .footer__join-club__form input {
     padding-left: 40px;
-    width: 350px;
+    /* width: 350px; */
     border: 1px solid var(--light-violet);
     background-color: var(--light-violet);
     font-size: 16px;
@@ -66,4 +67,25 @@ footer {
 .social-media__cards ul{
     display: flex;
     gap: 24px;
+}
+@media only screen and (max-width: 1199px) {
+.footer__nav {
+    flex-wrap: wrap;
+}
+.footer__menu {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.footer__social-media {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.footer__join-club__form {
+    width: 100%;
+}
+.copyright {
+    order: 2;
+}
 }
