@@ -1,15 +1,9 @@
 .connection {
     display: flex;
-  background-image: url(../resources/Image.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
-  position: relative;
-  height: 603px;
+    justify-content: space-between;
 }
 .connection__content {
-  /* width: calc(50% - 50px); */
-  position: absolute;
+  margin-left: 40px;
 }
 .connection__content_title {
   padding-top: 72px;
@@ -29,11 +23,26 @@
   background-color: var(--dark-color);
   color: #fff;
 }
-.connection__picture {
+.img-cover{
+    width: 100%;
+    object-fit: cover;
 }
 
 @media only screen and (max-width: 1199px) {
 .connection {
     flex-direction: column;
+}
+.connection__content {
+    margin: auto 24px;
+}
+.connection__content_title {
+    padding-top: 48px;
+}
+.connection__content_text {
+    margin-top: 12px;
+}
+.connection__content_btn {
+    margin-top: 64px;
+    margin-bottom: 38px;
 }
 }
